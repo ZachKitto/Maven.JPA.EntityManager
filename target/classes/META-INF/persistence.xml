@@ -1,0 +1,13 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="MyUnit" transaction-type="RESOURCE_LOCAL">
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/JPA_EntityManager"/>
+            <property name="javax.persistence.jdbc.user" value="zach"/>
+            <property name="javax.persistence.jdbc.password" value="zipcode0"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
+

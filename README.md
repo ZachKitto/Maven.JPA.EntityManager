@@ -53,7 +53,7 @@ Create __persistence.xml__ file and save it to _src -> main -> resources -> META
 
 ## Part 4: Create Services
 
-Create services that are composed of an _EntityManager_ and has an interface for performing CRUD operations for managing _Entities_ with you database.
+Create database.entities.services that are composed of an _EntityManager_ and has an interface for performing CRUD operations for managing _Entities_ with you database.
 
 Service(s) should be able to perform at minimum the following:
 
